@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.curd {
+  width: 80%;
+  margin: auto;
+}
+.curd .header {
+  text-align: center;
+  color: white;
+}
+.curd h1 {
+  padding: 20px 0px 10px 0;
+}
+.curd h2 {
+  margin-bottom: 15px;
+}
+input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: #111;
+  margin: 4px 0px;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #fff;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+input:focus {
+  background-color: #000;
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+}
+.price input {
+  width: 20%;
+}
+#total {
+  background-color: red;
+  padding: 5px 2px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#total::before {
+  content: "total :";
+}
+button {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #fff;
+  background-color: #390053;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+button:hover {
+  background-color: #51025f;
+  letter-spacing: 1px;
+}
+#searchTitle {
+  width: 47.5%;
+}
+#searchCategory {
+  width: 47.5%;
+}
+.buttonSearch {
+  display: flex;
+  justify-content: space-between;
+}
+table {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin: 10px 0px;
+}
+table th {
+  text-transform: uppercase;
+}
+th,
+td {
+  padding: 5px;
+}
